@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="contact-info">
           <h3>Get In Touch</h3>
           <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
-          
+
           <div className="info-items">
             <div className="info-item">
               <i className="fas fa-map-marker-alt"></i>
@@ -39,7 +39,7 @@ const Contact = () => {
                 <p>123 Fashion Street, New York, NY 10001</p>
               </div>
             </div>
-            
+
             <div className="info-item">
               <i className="fas fa-phone"></i>
               <div>
@@ -47,7 +47,7 @@ const Contact = () => {
                 <p>+1 (555) 123-4567</p>
               </div>
             </div>
-            
+
             <div className="info-item">
               <i className="fas fa-envelope"></i>
               <div>
@@ -55,7 +55,7 @@ const Contact = () => {
                 <p>support@shopper.com</p>
               </div>
             </div>
-            
+
             <div className="info-item">
               <i className="fas fa-clock"></i>
               <div>
@@ -65,18 +65,59 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
-          <div className="social-links">
+
+          {/* <div className="social-links">
             <a href="#"><i className="fab fa-facebook"></i></a>
             <a href="#"><i className="fab fa-instagram"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
             <a href="#"><i className="fab fa-pinterest"></i></a>
+          </div> */}
+
+
+          <div className="social-links">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Twitter"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+
+            <a
+              href="https://www.pinterest.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Pinterest"
+            >
+              <i className="fab fa-pinterest"></i>
+            </a>
           </div>
+
+
         </div>
-        
+
         <form className="contact-form" onSubmit={handleSubmit}>
           <h3>Send Message</h3>
-          
+
           <div className="form-group">
             <input
               type="text"
@@ -87,7 +128,7 @@ const Contact = () => {
               required
             />
           </div>
-          
+
           <div className="form-group">
             <input
               type="email"
@@ -98,7 +139,7 @@ const Contact = () => {
               required
             />
           </div>
-          
+
           <div className="form-group">
             <textarea
               name="message"
@@ -109,7 +150,7 @@ const Contact = () => {
               required
             ></textarea>
           </div>
-          
+
           <button type="submit" className="btn submit-btn">Send Message</button>
         </form>
       </div>
