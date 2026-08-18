@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Fashion Collection" />
+         <img src="/images/hero.jpg" alt="Shopper fashion collection" />
           <div className="hero-image-overlay"></div>
         </div>
       </div>

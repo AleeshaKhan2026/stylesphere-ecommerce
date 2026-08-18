@@ -16,18 +16,17 @@ const Categories = () => {
   const categories = [
     {
       title: "POPULAR IN WOMEN",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
+      image: "/images/women.jpg",
       itemCount: 245
     },
     {
       title: "TRENDING IN MEN",
-      image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      image: "/images/men.jpg",
       itemCount: 189
     },
     {
     title: "KIDS COLLECTION",
-    // آپ کی نئی image
-    image: "https://breakout.com.pk/cdn/shop/files/SAB04055.jpg?v=1741074902&width=1584",
+    image: "/images/kids.jpg",
     itemCount: 156
   }
   ];

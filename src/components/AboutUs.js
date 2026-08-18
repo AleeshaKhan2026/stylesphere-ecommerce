@@ -35,7 +35,7 @@ const AboutUs = () => {
         </div>
         <div className="about-image">
           {<img 
-  src="https://www.apparelentrepreneurship.com/wp-content/uploads/2019/04/apparel_entrepreneurship_what_your_clothing_brand_needs_to_stay_relevant_2019.jpg" 
+  src="/images/aboutus.jpg" 
   alt="About Us" 
 />
  }

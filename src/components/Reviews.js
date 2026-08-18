@@ -28,7 +28,7 @@ const Reviews = () => {
   rating: 5,
   comment: "Amazing quality! The dress I bought exceeded my expectations. Will definitely shop again! The shipping was fast and customer service was excellent.",
   role: "Fashion Blogger",
-  image: "https://img.freepik.com/free-photo/young-determined-armenian-curlyhaired-female-university-student-listen-carefully-asignment-look-confident-ready-task-cross-hands-chest-smiling-selfassured-standing-white-background_176420-56066.jpg?semt=ais_hybrid&w=740&q=80"
+  image: "/images/review1.jpg"
 },
 
     {
@@ -36,14 +36,14 @@ const Reviews = () => {
       rating: 5,
       comment: "Great selection of men's clothing. The fit is perfect and shipping was fast. Their size guide is accurate and the material quality is top-notch.",
       role: "Regular Customer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+      image: "/images/review2.jpg"
     },
     {
       name: "Emily Rodriguez",
       rating: 4,
       comment: "Love the exclusive offers! Got a great deal on a designer handbag. The packaging was beautiful and the product arrived in perfect condition.",
       role: "Fashion Enthusiast",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+      image: "/images/review3.jpg"
     }
   ];
 

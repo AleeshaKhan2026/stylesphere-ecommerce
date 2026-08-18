@@ -25,42 +25,42 @@ const ProductCard = ({ image, name, price, originalPrice, discount }) => (
 const Products = () => {
   const products = [
     {
-  image: "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  image: "/images/denimjacket.jpg",
   name: "Casual Denim Jacket",
   price: 89.99,
   originalPrice: 129.99,
   discount: 30
 },
     {
-      image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      image: "/images/summerfloral.jpg",
       name: "Summer Floral Dress",
       price: 59.99,
       originalPrice: 89.99,
       discount: 33
     },
  {
-  image: "https://afraz.pk/cdn/shop/files/image_fx_white_t_shirt_is_handing_on_wooden_hanger_eac_46290276122936.jpg?v=1768685258&width=1946",
+  image: "/images/t-shirt.jpg",
   name: "Classic White T-Shirt",
   price: 24.99,
   originalPrice: 39.99,
   discount: 37
 },   
     {
-  image: "https://img.drz.lazcdn.com/static/pk/p/a4f37425495eebcdc74b39888218b085.jpg_960x960q80.jpg_.webp",
+  image: "/images/jeans.jpg",
   name: "Slim Fit Jeans",
   price: 69.99,
   originalPrice: 99.99,
   discount: 30
 },  
     {
-  image: "https://wwd.com/wp-content/uploads/2023/03/designer-handbag-lead-art.jpg?w=911&h=510&crop=1",
+  image: "/images/handbag.jpg",
   name: "Leather Handbag",
   price: 129.99,
   originalPrice: 199.99,
   discount: 35
 },
     {
-  image: "https://www.exportleftovers.com/cdn/shop/files/vsd_10cbe97b-2863-4695-ad69-66f668ef0327.jpg?crop=center&height=1273&v=1767355353&width=850",
+  image: "/images/sneakers.jpg",
   name: "Premium Sneakers",
   price: 149.99,
   originalPrice: 219.99,
